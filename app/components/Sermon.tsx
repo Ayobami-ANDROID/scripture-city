@@ -2,17 +2,17 @@ import React from 'react'
 
 const Sermon = () => {
     return (
-        <div className='grid grid-cols-3 gap-8 px-20 mt-12 '>
-            <div className='flex flex-col gap-4'>
-                <h1 className='font-[600] font-manrope text-[20px] text-[rgba(51,51,51,1)]'>Watch Our Latest Sermon</h1>
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-8 px-20 mt-16 '>
+            <div className='flex flex-col  lg:justify-start justify-center gap-4'>
+                <h1 className='font-[600] lg:text-left text-center font-manrope text-[20px] text-[rgba(51,51,51,1)]'>Watch Our Latest Sermon</h1>
                 <div className='h-full border-[4px] border-[#ffffff] shadow-[2px_2px_9.3px_0px_rgba(0,0,0,0.25)] rounded-[8px]  '>
-                    <img src="/assests/scripture.jpg" className='h-[276px] w-full'></img>
+                    <img src="/assests/preaching.jpg" className='lg:h-[276px] h-[250px] w-full'></img>
                 </div>
 
             </div>
             <div className='col-span-2 pt-12 flex flex-col gap-4'>
-                <h1 className='text-[rgba(92,29,136,1)] font-[500] text-[36px] w-[80%]'>The Greater One: Access to Greater Victory</h1>
-                <p className='font-manrope font-[500] text-[20px] text-[rgba(51,51,51,1)]'>Rev Emeka Iduma</p>
+                <h1 className='text-[rgba(92,29,136,1)] font-[500] lg:text-[36px] text-[30px] lg:w-[80%] w-full'>The Greater One: Access to Greater Victory</h1>
+                <p className='font-manrope font-[500] lg:text-[20px] text-[16px] text-[rgba(51,51,51,1)]'>Rev Emeka Iduma</p>
                 <div>
                     <button className='flex items-center bg-[rgba(92,29,136,1)] text-[#fff] py-[12px] px-[16px] rounded-[8px] font-manrope text-[16px] font-[600] '>
                         <svg className='mr-4' width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
