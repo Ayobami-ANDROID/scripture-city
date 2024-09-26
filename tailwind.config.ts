@@ -15,6 +15,7 @@ const config: Config = {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
+        onest:["Onest","sans-serif"]
       },
     },
   },
