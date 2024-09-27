@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Image from 'next/image'
 import Header from './Navbar'
@@ -30,8 +31,8 @@ const Hero = () => {
                         </div>
 
                         <div className='flex lg:flex-row flex-col items-center mt-6 gap-4'>
-                            <button className='text-[rgba(255,255,255,1)] border-[1.6px] text-[16px] font-[600] border-[#ffffff] rounded-[8px] py-[12px] px-[16px] lg:mr-4 mr-0 lg:w-auto w-[200px]'>Watch Latest Sermon</button>
-                            <button className='bg-[rgba(255,255,255,1)] rounded-[8px] py-[12px] px-[16px] text-[rgba(92,29,136,1)] lg:w-auto w-[200px]'>About Scripture City</button>
+                            <button className='text-[rgba(255,255,255,1)] border-[1.6px] text-[16px] font-[600] border-[#ffffff]  hover:bg-[rgba(255,255,255,1)] transition-all duration-300 ease-in hover:text-[rgba(92,29,136,1)] rounded-[8px] py-[12px] px-[16px] lg:mr-4 mr-0 lg:w-auto w-[200px]'>Watch Latest Sermon</button>
+                            <button className='bg-[rgba(255,255,255,1)] rounded-[8px] py-[12px] px-[16px] text-[rgba(92,29,136,1)] hover:text-[rgba(255,255,255,1)] transition-all duration-300 ease-in hover:bg-inherit hover:border-2 hover:border-[#ffffff] lg:w-auto w-[200px]'>About Scripture City</button>
                         </div>
                     </div>
                     <div className=" mt-6 overflow-hidden">
